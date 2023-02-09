@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import Listing from './components/Listing';
 import jsonData from './components/etsy.json';
+import React from 'react';
 
 function App() {
     const loadData = JSON.parse(JSON.stringify(jsonData));
