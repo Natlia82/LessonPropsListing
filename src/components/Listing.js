@@ -5,7 +5,7 @@ function Listing(props) {
     const { items } = props;
   
     const itemList = items.map((item) => <Item key={item.listing_id} item={item} />   )
-   return  <div class="item-list">
+   return  <div className="item-list">
               {itemList }
            </div>
 }
